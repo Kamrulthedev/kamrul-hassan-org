@@ -4,6 +4,7 @@ import { FaNodeJs, FaStarOfLife } from "react-icons/fa6";
 import { GiJesterHat } from "react-icons/gi";
 import { GrGraphQl } from "react-icons/gr";
 import { IoIosGitCompare } from "react-icons/io";
+import { MdJavascript } from "react-icons/md";
 import { PiFileSql } from "react-icons/pi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import {
@@ -13,8 +14,10 @@ import {
   SiJira,
   SiMongodb,
   SiMui,
+  SiNextui,
   SiPostgresql,
   SiPostman,
+  SiPrisma,
   SiRadixui,
   SiReactquery,
   SiRedux,
@@ -30,6 +33,10 @@ export const skillSet = [
         icon: BiLogoTypescript,
       },
       {
+        name: "JavaScript",
+        icon: MdJavascript
+      },
+      {
         name: "React",
         icon: FaReact,
       },
@@ -42,6 +49,10 @@ export const skillSet = [
         icon: RiNextjsFill,
       },
       {
+        name: "NextUi",
+        icon: SiNextui,
+      },
+      {
         name: "Tailwind CSS",
         icon: RiTailwindCssFill,
       },
@@ -50,26 +61,13 @@ export const skillSet = [
         icon: FaCss3Alt,
       },
       {
-        name: "Sass",
-        icon: FaSass,
-      },
-      {
         name: "Ant Design",
         icon: SiAntdesign,
       },
       {
         name: "Framer Motion",
         icon: TbBrandFramerMotion,
-      },
-
-      {
-        name: "Radix UI",
-        icon: SiRadixui,
-      },
-      {
-        name: "Material UI",
-        icon: SiMui,
-      },
+      }
     ],
   },
   {
@@ -96,12 +94,12 @@ export const skillSet = [
         icon: SiPostgresql,
       },
       {
-        name: "RESTful APIs",
-        icon: IoIosGitCompare,
+        name: "Prisma",
+        icon: SiPrisma,
       },
       {
-        name: "GraphQL",
-        icon: GrGraphQl,
+        name: "RESTful APIs",
+        icon: IoIosGitCompare,
       },
       {
         name: "JWT",
@@ -115,14 +113,6 @@ export const skillSet = [
       {
         name: "Git",
         icon: FaGitAlt,
-      },
-      {
-        name: "Webpack",
-        icon: SiWebpack,
-      },
-      {
-        name: "Jest",
-        icon: GiJesterHat,
       },
       {
         name: "Apollo GraphQL",
