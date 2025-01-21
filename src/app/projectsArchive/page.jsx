@@ -9,7 +9,7 @@ const ProjectsArchive = () => {
           className="flex w-fit items-center gap-2 text-teal-400 group"
         >
           <GoArrowLeft className="group-hover:-translate-x-1 transition-all text-xl" />{" "}
-          Mahamudul Hasan
+          Kamrul Hassan
         </Link>
         <h1 className="text-5xl text-slate-100 font-semibold font-sans">
           All Projects

@@ -14,13 +14,13 @@ import SkillSection from "@/components/Sections/Skills";
 
 const MainPage = () => {
   return (
-    <main className="w-full relative container mx-auto md:px-10  md:grid grid-cols-12 justify-between items-start">
+    <main className="w-full relative container font-serif mx-auto md:px-10  md:grid grid-cols-12 justify-between items-start">
       <div className="col-span-5 md:px-0 px-4 md:h-[calc(100vh-160px)] relative ">
         <div className="md:fixed flex flex-col md:justify-between pt-20 pb-14  h-full  md:space-y-4 ">
-          <header>
+          <header className="font-serif">
             <p className="text-green">Hi, my name is</p>
-            <h1 className="md:text-5xl text-4xl text-slate-100 font-semibold font-sans">
-              Mahamudul Hasan
+            <h1 className="md:text-5xl text-4xl text-slate-100">
+              Kamrul Hassan
             </h1>
             <h2 className="text-2xl text-slate-100 mt-2 mb-3">
               Web Application Developer
