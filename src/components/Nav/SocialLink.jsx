@@ -4,22 +4,22 @@ import { FiDownloadCloud } from "react-icons/fi";
 const socialIcons = [
   {
     name: "github",
-    url: "https://github.com/mahamudulhasan-me",
+    url: "https://github.com/Kamrulthedev",
     icon: FaGithub,
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/mahamudulhasan-me/",
+    url: "https://www.linkedin.com/in/kamrul-hassan-8661a5288/",
     icon: FaLinkedin,
   },
   {
     name: "facebook",
-    url: "https://www.facebook.com/mahamudulhasan.me/",
+    url: "https://www.facebook.com/KamrulScripts/",
     icon: FaFacebook,
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/mahamudul_hasanx/",
+    url: "https://www.instagram.com/kamrulscripts/",
     icon: FaInstagram,
   },
 ];
