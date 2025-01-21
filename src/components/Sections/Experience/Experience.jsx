@@ -17,7 +17,9 @@ const Experience = () => {
       ))}
 
       <Link
-        href={"Mahmudul's_Resume.pdf"}
+          href={
+            "https://drive.google.com/file/d/1CB-JBLdeoF8P97w71TSVIUPMjR1g7x04/view?usp=sharing"
+          }
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Resume Link"

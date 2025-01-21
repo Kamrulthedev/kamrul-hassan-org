@@ -2,9 +2,9 @@ export const industries = [
   {
     name: "Personal Projects and Freelance Experience",
     link: "https://github.com/Kamrulthedev",
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     jobType: "Freelance/Project-Based",
-    start: "2021-01-01",
+    start: "2023-03-01",
     end: "Present",
 
     address: "Cox`s Bazar, Bangladesh",
