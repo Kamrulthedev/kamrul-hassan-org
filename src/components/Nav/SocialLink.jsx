@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 import { FiDownloadCloud } from "react-icons/fi";
 const socialIcons = [
   {
@@ -11,6 +17,11 @@ const socialIcons = [
     name: "linkedin",
     url: "https://www.linkedin.com/in/kamrul-hassan-8661a5288/",
     icon: FaLinkedin,
+  },
+  {
+    name: "Youtube",
+    url: "https://www.youtube.com/@KamrulHasan-ue7xo",
+    icon: FaYoutube,
   },
   {
     name: "facebook",
@@ -38,7 +49,13 @@ const SocialLink = () => {
           <item.icon />
         </Link>
       ))}
-      <Link href={"Mahmudul's_Resume.pdf"} target="_blank" download>
+      <Link
+        href={
+          "https://drive.google.com/file/d/1CB-JBLdeoF8P97w71TSVIUPMjR1g7x04/view?usp=sharing"
+        }
+        target="_blank"
+        download
+      >
         <button className="btn-getResume2  relative px-3 py-1.5 flex items-center gap-0.5">
           Resume <FiDownloadCloud />
         </button>
