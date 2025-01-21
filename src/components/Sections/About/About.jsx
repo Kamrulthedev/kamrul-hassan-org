@@ -1,57 +1,41 @@
 import MobileSectionHead from "@/components/SectionHead/MobileSectionHead";
 import { FcAbout } from "react-icons/fc";
 
-const skills = [
-  "TypeScript",
-  "Next.js",
-  "React",
-  "Redux",
-  "Tailwind CSS",
-  "Express.js",
-  "GraphQL",
-  "MongoDB",
-];
-
-const othersSkills = [
-  "Git",
-  "RESTful APIs",
-  "JWT",
-  "Ant Design",
-  "Radix UI",
-  "Framer Motion",
-  "PostgreSQL",
-];
-
 const About = () => {
   return (
     <section
       id="about"
-      className="text-slate-400 space-y-5 leading-7 md:pt-20 md:pb-0 pb-10 md:p-4 p-0"
+      className="text-slate-400 space-y-6 leading-7 md:pt-20 md:pb-0 pb-10 md:p-4 p-0"
     >
-      <MobileSectionHead icon={FcAbout} title="About" />
-      <div className="px-4 md:px-0 space-y-4">
+      <MobileSectionHead icon={FcAbout} title="About Me" />
+      <div className="px-4 md:px-0 space-y-6">
+        <h2 className="text-xl font-semibold text-slate-200">Who I Am</h2>
         <p>
-          Hello! I&apos;m a passionate developer who enjoys crafting seamless,
-          user-friendly web experiences. My work combines thoughtful design with
-          robust engineering to create impactful solutions. I thrive on blending
-          creativity with functionality, ensuring that every pixel and line of
-          code contributes to an intuitive digital experience.
+          Hello! I&apos;m a passionate Full Stack Developer with a strong focus
+          on crafting seamless, user-friendly web experiences. By combining
+          thoughtful design with robust engineering, I create solutions that
+          are not just functional but impactful.
         </p>
+        <h2 className="text-xl font-semibold text-slate-200">What I Do</h2>
         <p>
-          Currently, I&apos;m a{" "}
-          <span className="hovered-text">MERN stack developer</span> with a{" "}
-          strong focus on front-end development . At{" "}
-          <span className="hovered-text">Sundarban Courier Service</span>, I
-          work on building user interfaces that align with business goals while
-          delivering exceptional performance and usability.
+          Currently, I&apos;m contributing as a{" "}
+          <span className="hovered-text">Full Stack Developer</span> at{" "}
+          <span className="hovered-text">Sundarban Courier Service</span>. My
+          work revolves around building dynamic user interfaces and intuitive
+          digital experiences that align with business objectives. Whether it’s
+          creating scalable front-end components with{" "}
+          <span className="hovered-text">React</span> or optimizing back-end
+          operations using <span className="hovered-text">Node.js</span>, my
+          focus is on delivering excellence.
         </p>
+        <h2 className="text-xl font-semibold text-slate-200">Beyond Work</h2>
         <p>
-          Beyond professional projects, I enjoy pushing boundaries and tackling
-          challenges that encourage growth. I&apos;m constantly learning and
-          experimenting with new technologies to stay ahead in the ever-evolving
-          tech landscape. When I&apos;m not coding, I spend time writing,
-          reading, or nurturing my garden, drawing creative inspiration from the
-          beauty of nature.
+          I thrive on pushing boundaries and tackling challenges that foster
+          growth. Staying ahead in the ever-evolving tech landscape is a
+          priority, so I&apos;m constantly experimenting with new tools and
+          technologies. When I&apos;m not coding, you can find me writing,
+          reading, or nurturing my garden, drawing creative inspiration from
+          the beauty of nature.
         </p>
       </div>
     </section>
