@@ -10,7 +10,7 @@ const SkillCard = ({ skills }) => {
       viewOptions={{ margin: "0px 0px -20px 0px" }}
       transition={{ duration: 0.3, ease: "easeInOut" }}
     >
-      <div className="flex md:flex-row flex-col items-start justify-between md:gap-2 text-slate-300 group hover:ease-in-out ease-linear hover:bg-navy-light p-4 rounded-md transition-all hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg ">
+      <div className="flex md:flex-row flex-col mb-6 items-start justify-between md:gap-2 text-slate-300 group hover:ease-in-out ease-linear hover:bg-navy-light p-4 rounded-md transition-all hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg ">
         <aside className="md:w-[30%] mb-2">
           <h1 className="uppercase">{skills?.title}</h1>
         </aside>
