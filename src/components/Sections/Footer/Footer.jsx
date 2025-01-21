@@ -6,7 +6,7 @@ const Footer = () => {
       Design inspired by <span className="hovered-text">Brittany Chiang</span>,
       developed by{" "}
       <Link
-        href="https://github.com/mahamudulhasan-me"
+        href="https://github.com/Kamrulthedev"
         target="_blank"
         rel="noreferrer"
         className="hovered-text"
@@ -17,7 +17,7 @@ const Footer = () => {
       <span className="hovered-text">Tailwind CSS</span>, deployed with{" "}
       <span className="hovered-text">Vercel</span>.
       <p className="border-t border-navy-lightest pt-1 mt-1">
-        {currentYear} &copy; Mahamudul Hasan
+        {currentYear} &copy; Kamrul Hassan
       </p>
     </footer>
   );

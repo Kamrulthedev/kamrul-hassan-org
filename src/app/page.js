@@ -1,5 +1,4 @@
 import BackToTop from "@/components/BackToTop/BackToTop";
-import FbMessenger from "@/components/FbMessenger/FbMessenger";
 import { TextLoop } from "@/components/motion-ui/TextLoop";
 import Nav from "@/components/Nav/Nav";
 import SocialLink from "@/components/Nav/SocialLink";
@@ -85,7 +84,6 @@ const MainPage = () => {
         <Contact />
         <Footer />
       </div>
-      <FbMessenger />
       <BackToTop />
     </main>
   );

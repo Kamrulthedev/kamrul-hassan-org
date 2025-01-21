@@ -22,15 +22,14 @@ const Contact = () => {
       >
         <div className="p-4 space-y-4">
           <p className="flex items-center gap-2 text-slate-300">
-            <RiHomeOfficeLine size={24} /> Uttara, Dhaka-1230, Bangladesh
+            <RiHomeOfficeLine size={24} /> Cox`s Bazar, Bangladesh
           </p>
           <aside className="flex items-center  gap-2">
             <p className="text-slate-300 text-2xl">
               <MdPhone />
             </p>
             <p className="text-slate-300">
-              <span className="hovered-text2">+8801710648088</span> <br />
-              <span className="hovered-text2">+8801511242370</span>
+              <span className="hovered-text2">+8801827754168</span>
             </p>
           </aside>
           <Email />

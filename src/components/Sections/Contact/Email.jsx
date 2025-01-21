@@ -7,7 +7,7 @@ import { VscCopy } from "react-icons/vsc";
 
 const Email = () => {
   const [copied, setCopied] = useState(false);
-  const recipientEmail = "mahamudulhasan.org@gmail.com";
+  const recipientEmail = "kamrulthedev@gmail.com";
   const subject = "Hello from me";
 
   const copyToClipboard = (text) => {
@@ -32,7 +32,7 @@ const Email = () => {
         onClick={composeEmail}
         className="text-slate-300 flex items-center gap-1 group"
       >
-        <span className="hovered-text2">mahamudulhasan.org@gmail.com</span>{" "}
+        <span className="hovered-text2">kamrulthedev@gmail.com</span>{" "}
         <span className=" group-hover:translate-x-1 group-hover:mb-2 transition-all">
           <RxArrowTopRight />
         </span>
