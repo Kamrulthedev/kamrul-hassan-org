@@ -34,7 +34,7 @@ const ProjectCardInner = ({ projectDetails, setShowModal }) => {
         <div className="md:w-[35%] w-full">
           <figure className="w-full h-full border-2 rounded-md border-slate-700 group-hover:border-slate-600">
             <Image
-              src={cover} // Access the first image path from the images array
+              src={cover}
               width={250}
               height={250}
               alt="image"
