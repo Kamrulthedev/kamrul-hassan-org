@@ -45,7 +45,7 @@ const SocialLink = () => {
           target="_blank"
           rel="noreferrer"
           aria-label={item.name}
-          className="text-2xl text-slate-light hover:text-slate-lightest transition-all"
+          className="lg:text-2xl text-xl text-slate-light hover:text-slate-lightest transition-all"
         >
           <item.icon />
         </Link>
