@@ -52,8 +52,8 @@ const SocialLink = () => {
       ))}
 
       {/* Blogs Page */}
-     <Link href="/blog">
-      <button className="btn-getBlogs2 text-base relative flex items-center gap-1">
+     <Link href="/blogs">
+      <button className="btn-getBlogs2 text-[12px] relative flex items-center gap-1">
         Blogs <FaBlog />
       </button>
     </Link>
