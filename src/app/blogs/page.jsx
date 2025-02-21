@@ -1,5 +1,7 @@
+
 "use client"
 
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import { blogs } from "@/utils/blogs";
 import { GoArrowLeft } from "react-icons/go";
@@ -32,12 +34,19 @@ const BlogsPage = () => {
               key={blog.id}
               className="p-6 bg-[#1e293b] rounded-xl shadow-md hover:shadow-lg transition-shadow relative"
             >
-              <h2 className="text-2xl font-bold text-teal-400 mb-2">
-                {blog.title}
-              </h2>
-              <p className="text-sm text-gray-400 mb-1">
-                By {blog.author} on {blog.date}
-              </p>
+              <div className="flex items-center gap-4 mb-4">
+                <img
+                  src={blog.authorPhoto}
+                  alt={`${blog.author}'s photo`}
+                  className="w-12 h-12 rounded-full object-cover"
+                />
+                <div>
+                  <h2 className="text-2xl font-bold text-teal-400">{blog.title}</h2>
+                  <p className="text-sm text-gray-400">
+                    By {blog.author} on {blog.date}
+                  </p>
+                </div>
+              </div>
               <p className="text-gray-300 mb-4">
                 {blog.content.substring(0, 100)}...
               </p>
