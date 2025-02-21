@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  FaBlog,
   FaFacebook,
   FaGithub,
   FaInstagram,
@@ -49,6 +50,16 @@ const SocialLink = () => {
           <item.icon />
         </Link>
       ))}
+
+      {/* Blogs Page */}
+     <Link href="/blog" target="_blank">
+      <button className="btn-getBlogs2 relative flex items-center gap-1">
+        Blogs <FaBlog />
+      </button>
+    </Link>
+
+
+    {/* resume */}
       <Link
         href={
           "https://drive.google.com/file/d/1CB-JBLdeoF8P97w71TSVIUPMjR1g7x04/view?usp=sharing"

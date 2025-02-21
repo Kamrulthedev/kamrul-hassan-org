@@ -177,3 +177,61 @@ html {
 .btn-getResume2:hover:before {
   transform: translateX(15em);
 }
+
+
+
+
+/* Blog Button */
+.btn-getBlogs2 {
+  --blue: #3498db;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  border-radius: 0.4em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 1px solid var(--blue);
+  background: linear-gradient(
+    to right,
+    rgba(52, 152, 219, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(52, 152, 219, 0.1) 100%
+  );
+  color: var(--blue);
+  box-shadow: inset 0 0 10px rgba(52, 152, 219, 0.4),
+    0 0 9px 3px rgba(52, 152, 219, 0.1);
+  position: relative;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-getBlogs2:hover {
+  color: #6cb9f0;
+  box-shadow: inset 0 0 10px rgba(52, 152, 219, 0.6),
+    0 0 9px 3px rgba(52, 152, 219, 0.2);
+}
+
+.btn-getBlogs2:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(52, 152, 219, 0.1) 40%,
+    rgba(52, 152, 219, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+.btn-getBlogs2:hover:before {
+  transform: translateX(15em);
+}
