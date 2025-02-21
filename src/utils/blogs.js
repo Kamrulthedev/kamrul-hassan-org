@@ -78,5 +78,22 @@ export const blogs = [
         author: 'Kamrul',
         authorPhoto: 'https://i.ibb.co.com/fYmKbcT1/image.png', 
         date: '2025-02-12'
+    },
+    {
+        id: 11,
+        title: 'Exploring the Power of Vue.js',
+        content: 'Vue.js is a progressive JavaScript framework used to build user interfaces. Unlike other frameworks, Vue is designed to be incrementally adoptable, meaning you can use it for small parts of a project or as a full-fledged single-page application (SPA). Vue’s core library focuses on the view layer only, which makes it easy to integrate with other libraries or existing projects. One of the standout features of Vue is its reactivity system. Vue automatically updates the DOM when the data changes, without requiring developers to manually update the view. This makes building interactive UIs much easier. Vue also provides powerful tools for building components, making it easy to create reusable and maintainable UI elements. Vue’s templating syntax is simple and intuitive, allowing developers to declaratively bind data to the DOM. Another key feature of Vue is its component system. Components are the building blocks of a Vue app, and they help you organize your code into smaller, more manageable pieces. Vue’s ecosystem includes Vue Router for navigation, Vuex for state management, and Vue CLI for project scaffolding, making it easy to get started with Vue development. Additionally, Vue’s community is growing rapidly, and there are plenty of resources available, including tutorials, documentation, and third-party libraries. In conclusion, Vue.js is a powerful, flexible, and easy-to-learn framework that is perfect for developers who want to build modern web applications.',
+        author: 'Kamrul',
+        authorPhoto: 'https://i.ibb.co.com/fYmKbcT1/image.png', 
+        date: '2025-02-12'
+    },
+    {
+        id: 12,
+        title: 'Exploring the Power of Vue.js',
+        content: 'Vue.js is a progressive JavaScript framework used to build user interfaces. Unlike other frameworks, Vue is designed to be incrementally adoptable, meaning you can use it for small parts of a project or as a full-fledged single-page application (SPA). Vue’s core library focuses on the view layer only, which makes it easy to integrate with other libraries or existing projects. One of the standout features of Vue is its reactivity system. Vue automatically updates the DOM when the data changes, without requiring developers to manually update the view. This makes building interactive UIs much easier. Vue also provides powerful tools for building components, making it easy to create reusable and maintainable UI elements. Vue’s templating syntax is simple and intuitive, allowing developers to declaratively bind data to the DOM. Another key feature of Vue is its component system. Components are the building blocks of a Vue app, and they help you organize your code into smaller, more manageable pieces. Vue’s ecosystem includes Vue Router for navigation, Vuex for state management, and Vue CLI for project scaffolding, making it easy to get started with Vue development. Additionally, Vue’s community is growing rapidly, and there are plenty of resources available, including tutorials, documentation, and third-party libraries. In conclusion, Vue.js is a powerful, flexible, and easy-to-learn framework that is perfect for developers who want to build modern web applications.',
+        author: 'Kamrul',
+        authorPhoto: 'https://i.ibb.co.com/fYmKbcT1/image.png', 
+        date: '2025-02-12'
     }
+
 ];
