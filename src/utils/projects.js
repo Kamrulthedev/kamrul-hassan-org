@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 5,
+    id: 1,
     isTranslate: true,
     name: "Travel Vista",
     title: "Travel Vista is a Social Website",
@@ -40,5 +40,50 @@ export const projects = [
     liveLink: "https://travel-vista-new-version.vercel.app/",
     clientCode: "https://github.com/Kamrulthedev/Travel-vista-new-version",
     serverCode: "https://github.com/Kamrulthedev/Travel-vista-new-version-server",
+  },
+  {
+    id: 2,
+    isTranslate: true,
+    name: "Car Wash Booking System",
+    title: "Car Wash & Booking System Website",
+    description:
+      "The Car Wash Booking System is a user-friendly platform designed to simplify the process of booking car wash services. The website allows customers to view available services, select convenient time slots, and make appointments with ease. It offers features like service selection, appointment scheduling, order history, and real-time notifications. The platform aims to enhance customer convenience and streamline operations for car wash service providers with a clean and intuitive interface.",
+    cover: "/images/car-wash/cover-image.png",
+    images: [
+      "/images/car-wash/home.png",
+      "/images/car-wash/services.png",
+      "/images/car-wash/image.png",
+      "/images/car-wash/login.png",
+      "/images/car-wash/Screenshot 2025-02-22 131053.png",
+    ],
+    technologies: [
+      "TypeScript",
+      "React",
+      "Redux",
+      "TailwindCSS",
+      "Ant Design",
+      "JWT",
+      "REST APIs",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+    ],
+    "features": [
+      "Service Selection: Browse and choose from various car wash packages and services.",
+      "Booking System: Schedule car wash appointments with preferred date and time slots.",
+      "User Authentication: Secure sign-up, login, and profile management for customers.",
+      "Order History: View past bookings and manage upcoming appointments.",
+      "Notifications: Receive reminders and updates about bookings via email or SMS.",
+      "Service Provider Dashboard: Manage appointments, view customer details, and track service history.",
+      "Admin Panel: Oversee user accounts, services, bookings, and platform settings.",
+      "Payment Integration: Support for secure online payments and transaction history.",
+      "Rating & Reviews: Allow customers to share feedback on services received.",
+      "Responsive Design: Optimized for desktop, tablet, and mobile use.",
+      "Search & Filters: Easily find services based on type, price, and availability.",
+      "Real-Time Availability: Display available slots and prevent double bookings."
+    ],
+    liveLink: "https://car-wash-booking-system-murex.vercel.app/",
+    clientCode: "https://github.com/Kamrulthedev/Car-Wash-Booking-System",
+    serverCode: "https://github.com/Kamrulthedev/Car-Wash-Booking-System-Server",
   }
 ];
