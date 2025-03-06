@@ -23,6 +23,10 @@ const navItems = [
     name: "Education",
     to: "education",
   },
+  {
+    name : "Contact",
+    to : ""
+  }
 ];
 
 const Nav = () => {
