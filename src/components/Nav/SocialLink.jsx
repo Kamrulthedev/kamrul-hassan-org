@@ -62,7 +62,7 @@ const SocialLink = () => {
     {/* resume */}
       <Link
         href={
-          "https://drive.google.com/file/d/1CB-JBLdeoF8P97w71TSVIUPMjR1g7x04/view?usp=sharing"
+          "https://drive.google.com/file/d/1J9P0xbKg3vxSUP0KiWAoILdcCe0JsI8k/view?usp=sharing"
         }
         target="_blank"
         download
